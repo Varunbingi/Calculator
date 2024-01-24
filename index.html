@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="outer">
+      <div class="inner">
+        <div class="empty">
+          <h1>Cisco</h1>
+        </div>
+        <div class="input">
+          <input type="text" id="inputField" />
+          <button class="clear" id="ac">AC</button>
+        </div>
+        <div class="buttons">
+          <input
+            type="button"
+            value="7"
+            class="button button7"
+            onclick="changeValue('7') "
+          />
+          <input
+            type="button"
+            value="8"
+            class="button button8"
+            onclick="changeValue('8')"
+          />
+          <input
+            type="button"
+            value="9"
+            class="button button9"
+            onclick="changeValue('9')"
+          />
+          <input
+            type="button"
+            value="*"
+            class="button button*"
+            onclick="changeValue('*')"
+          />
+          <input
+            type="button"
+            value="4"
+            class="button button4"
+            onclick="changeValue('4')"
+          />
+          <input
+            type="button"
+            value="5"
+            class="button button5"
+            onclick="changeValue('5')"
+          />
+          <input
+            type="button"
+            value="6"
+            class="button button6"
+            onclick="changeValue('6')"
+          />
+          <input
+            type="button"
+            value="/"
+            class="button button%"
+            onclick="changeValue('/')"
+          />
+          <input
+            type="button"
+            value="1"
+            class="button button1"
+            onclick="changeValue('1')"
+          />
+          <input
+            type="button"
+            value="2"
+            class="button button2"
+            onclick="changeValue('2')"
+          />
+          <input
+            type="button"
+            value="3"
+            class="button button3"
+            onclick="changeValue('3')"
+          />
+          <input
+            type="button"
+            value="-"
+            class="button button-"
+            onclick="changeValue('-')"
+          />
+          <input
+            type="button"
+            value="."
+            class="button button."
+            onclick="changeValue('.')"
+          />
+          <input
+            type="button"
+            value="0"
+            class="button button0"
+            onclick="changeValue('0')"
+          />
+          <input
+            type="button"
+            value="="
+            class="button button="
+            onclick="result()"
+          />
+          <input
+            type="button"
+            value="+"
+            class="button button+"
+            onclick="changeValue('+')"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
